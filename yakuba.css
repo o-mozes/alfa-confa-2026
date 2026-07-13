@@ -1,0 +1,89 @@
+.section-label {
+  margin: 0 0 7px;
+  color: var(--amber);
+  font-size: 12px;
+  font-weight: 850;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.note {
+  margin-top: 13px;
+  padding: 11px 14px;
+  border-left: 3px solid var(--amber);
+  background: var(--soft-amber);
+  color: #66523a;
+  font-size: 13px;
+}
+
+.script-list {
+  display: grid;
+  gap: 25px;
+  margin-top: 24px;
+}
+
+.script-item {
+  padding-bottom: 23px;
+  border-bottom: 1px solid var(--line);
+}
+
+.script-item:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.script-item h3 {
+  font-size: 19px;
+}
+
+.script-item p,
+.script-item li,
+.process-list li,
+.compact-list li {
+  color: #34413b;
+  font-size: 15px;
+}
+
+.script-item ol,
+.script-item ul,
+.process-list,
+.compact-list ul {
+  display: grid;
+  gap: 7px;
+  margin: 12px 0 0;
+  padding-left: 22px;
+}
+
+.script-item blockquote {
+  margin: 13px 0;
+  padding: 14px 17px;
+  border-left: 4px solid var(--green);
+  background: var(--soft-green);
+  font-size: 17px;
+  font-weight: 680;
+  line-height: 1.42;
+}
+
+.script-item .when {
+  margin-top: 9px;
+  color: var(--muted);
+}
+
+.process-list {
+  gap: 11px;
+  margin: 16px 0 18px;
+}
+
+.compact-list h3 {
+  margin-top: 21px;
+}
+
+.compact-list h3:first-child {
+  margin-top: 14px;
+}
+
+@media (max-width: 760px) {
+  .script-item blockquote {
+    font-size: 16px;
+  }
+}
